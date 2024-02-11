@@ -11,29 +11,49 @@
     <body>
         <main>
             <div class="main-page">
-                <div class="left-side">
-                    <div class="opacity-left">
-                        <img class="left-logo"></img>
+                <div class="left-side">    
+                    <img class="left-image" src="./img/halie-west-unsplash.jpg" width="100" height="200"></img>
+                    <div class="left-opacity"></div>
+                    <div class="overlay">
+                        <img class="left-logo" src="./img/odin-image.png" width="40" height="40" ></img>
+                        <p class="left-text">Odin</p>
                     </div>
-                    <p class="image-credits">Photo by <a href=""> NAME</a> on <a href="">SITE</a></p>
+                    <p class="credits">Photo by <a href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Halie West</a> on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>  
                 </div>
+                
+                
+                
+                
                 <form class="right-side">
                     <fieldset class="right-top">
                         <p class="top-text">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started.</i></p>      
-                        <p class="top-subtext">You <i>know</i> you want to.</p>                
-                        <legend></legend>
-                        <label></label>
-                        <input class="first-name"></input>
-                        <label></label>
-                        <input class="last-name"></input>
-                        <label></label>
-                        <input class="e-mail"></input>
-                        <label></label>
-                        <input class="tel"></input>
-                        <label></label>
-                        <input class="password"></input>
-                        <label></label>
-                        <input class="repassword"></input>                        
+                        <p class="top-text bottom">You <i>know</i> you want to.</p>                
+                        <legend>Let's do this!</legend>
+                        <div class="form">
+                            <div class="first-name field">
+                                <label for="first-name">First name</label>
+                                <input type="text" id="first-name" name="first-name"></input>
+                            </div>
+                            <div class="last-name field">
+                                <label for="last-name">Last name</label>
+                                <input type="text" id="last-name" name="first-name"></input>
+                            </div>
+                            <div class="e-mail field">
+                                <label for="e-mail">E-mail</label>
+                                <input type="email" id="e-mail" name="e-mail"></input>
+                            </div>
+                            <div class="tel field">
+                                <label for="phone-number">Phone number</label>
+                                <input type="tel" id="phone-number" name="phone-number"></input>
+                            </div>
+                            <div class="password field"> 
+                                <label for="password">Password</label>
+                                <input type="password" id="password" name="password"></input>
+                            </div>   
+                            <div class="repassword field"></div>
+                                <label for="repassword">Confirm password</label>                       
+                                <input type="password" id="repassword" name="repassword"></input>
+                            </div>                        
                     </fieldset>
                     <div class="right-bottom">
                         <button class="create-button">Create Account</button>

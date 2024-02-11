@@ -1,17 +1,67 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
 .main-page {
     display: flex;
+
+}
+.left-side {
+    position: relative;
+    flex: 0 0 300px;
 }
 
-.left-side {
-    width: 30%;
+.left-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    height: auto;
+}
+.left-opacity,
+.overlay {
+    position: absolute;    
+    top: 100px;
+    width: 100%;
+    height:100px;
+}
+
+.left-opacity {
+    background-color: black;
+    opacity: 0.6;
+}
+
+
+
+.credits,
+.credits a,
+.left-text {
+    color: white;
+}
+
+.credits {
+    position: absolute;
+    top: 430px;
+    left: 40px;
+}
+
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .right-side {
-    width: 70%;
+    flex-grow: 1;
+}
+
+fieldset {
+    position: relative;
+}
+
+legend {
+    position: absolute;
+}
+label, input {
+    display: block;
 }
